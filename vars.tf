@@ -16,6 +16,10 @@ variable "public_subnet_cidr_lab0" {
     description = "The cidr of the public subnet"
 }
 
+variable "private_subnet_cidr_lab0" {
+    default = "10.1.2.0/24"
+    description = "The cidr of the private subnet"
+}
 
 variable "key_name" {
     default = "my-test"

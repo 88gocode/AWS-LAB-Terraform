@@ -10,3 +10,16 @@ resource "aws_subnet" "az1-public1-subnet" {
 
    }
 }
+
+# Create Private Subnet
+
+resource "aws_subnet" "az1-private-subnet" {
+   vpc_id = aws_vpc.main.id
+   cidr_block = var.private_subnet_cidr_lab0
+   availability_zone = var.AWS_AZ
+   map_public_ip_on_launch = "false"
+   tags = {
+      Name = "AZ1-Private-Subnet"
+
+   }
+}

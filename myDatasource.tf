@@ -24,3 +24,8 @@ output "IP" {
   value = aws_instance.example.public_ip
   description = "Public IP for demo"
 }
+
+output "Private_IP" {
+  value = aws_instance.example2.private_ip
+  description = "Private IP for demo"
+}
