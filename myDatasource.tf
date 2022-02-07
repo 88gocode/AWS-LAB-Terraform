@@ -25,6 +25,11 @@ output "IP" {
   description = "Public IP for demo"
 }
 
+output "nat_gateway_IP" {
+  value = aws_nat_gateway.gw.public_ip
+  description = "Public IP for Nat Gateway"
+}
+
 output "Private_IP" {
   value = aws_instance.example2.private_ip
   description = "Private IP for demo"
