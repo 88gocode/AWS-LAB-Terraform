@@ -3,7 +3,7 @@ AWS LAB By Terraform
 
 lab1 --> [AWS-VPC-LAB1_By-Terraform](https://blog.utshop.tw/2022/01/05/2022-01-05-AWS_VPC-LAB1_By-Terraform/)
 lab2 --> [AWS-VPC-LAB2_By-Terraform](https://blog.utshop.tw/2022/01/09/2022-01-09-AWS_VPC-LAB2_By-Terraform/)
-lab3 --> AWS-VPC-LAB3_By-Terraform
+lab3 --> [AWS-VPC-LAB3_By-Terraform](https://blog.utshop.tw/2022/02/11/2022-02-12-AWS_VPC-LAB3_By-Terraform/)
 
 ## How to use
 - add aws key pair that is name of **my-test.pem** with aws console dashboard.
